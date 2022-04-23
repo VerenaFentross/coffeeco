@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&family=Special+Elite&display=swap");
+/* 
+
+font-family: 'Exo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Special Elite', cursive; 
+
+colors: #000, #fff;
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Exo", sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  margin: 1.2rem 0rem 0.3rem 0rem;
+}
+h3 {
+  font-family: "Exo", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+p {
+  font-family: "Special Elite", cursive;
+  font-size: 0.6rem;
+
+  line-height: 1rem;
+  margin-bottom: 1rem;
+}
+a {
+  font-family: "Special Elite", cursive;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #000;
+}
+
+/* <!-- ==========NAVIGATION========== --> */
+nav {
+  text-align: right;
+}
+li {
+  display: inline-block;
+  padding: 1rem;
+}
+/* <!-- ==========HEADER========== --> */
+
+header {
+  background-image: url(/assets/img/bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* <!-- ==========SECTION HELLO========== --> */
+#hello {
+  padding: 8%;
+  background-image: url(/img/beans_icon.png);
+}
+#hello p {
+  width: 50%;
+}
+/* <!-- ==========SECTION MENU========== --> */
+
+#menu {
+  display: block;
+  background-image: url(/assets/img/bridge_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 10%;
+}
+
+#menu div {
+  background-color: #fff;
+  background-image: url(/assets/img/cake_icon.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+
+  width: 100%;
+}
+#menu div img {
+  width: 5%;
+}
+#menu article {
+  width: 35%;
+  border: #000 solid 1px;
+  margin: auto;
+  margin-top: 1%;
+  padding: 1%;
+}
+
+/* <!-- ==========MAIN========== --> */
+
+main article {
+  margin: auto;
+
+  width: 45%;
+  display: inline-block;
+}
+main img {
+  width: 20%;
+  display: inline-block;
+}
+main p {
+  text-align: left;
+}
+section div {
+  display: inline-block;
+  background-color: #fff;
+  margin-top: 20%;
+  padding: 5% 20% 5% 20%;
+}
+section img {
+  width: 30%;
+  margin: auto;
+  margin-right: 10%;
+}
+section a {
+  border: #000 solid 1px;
+  padding: 1%;
+}
+
+/* <!-- ==========SECTION STORY========== --> */
+
+#story {
+  background-image: url(/assets/img/bridge_4.jpeg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* <!-- ==========SECTION CATERING========== --> */
+
+#catering {
+  background-image: url(/assets/img/bridge_3.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* <!-- ==========SECTION CAKES========== --> */
+
+#cakes {
+  background-image: url(/assets/img/bridge_4.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* <!-- ==========FOOTER CONTACT========== --> */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 3%;
+  line-height: 1rem;
+}
+footer a {
+  display: block;
+}
+footer img {
+  width: 2%;
+}
